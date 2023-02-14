@@ -51,6 +51,7 @@ const expectBridgeOrder = (received, upside, downside) => {
   expect(upsideIndex).toBeLessThan(downsideIndex);
 };
 
+
 describe('다리 건너기 테스트', () => {
   test('다리 생성 테스트', () => {
     const randomNumbers = [1, 0, 0];
